@@ -32,7 +32,6 @@ end
 
 function ok_cb(extra, success, result)
 end
-
 function on_binlog_replay_end()
   started = true
   postpone (cron_plugins, false, 60*5.0)
@@ -226,7 +225,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+Pp    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(379068945)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
